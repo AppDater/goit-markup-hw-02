@@ -1,20 +1,32 @@
 :root{
     /* colous */
     --action_color:#2196F3;
+    --accent_color:#2196F3;
     --main_color:#212121;
     --second_color:#2F303A;
+    --back_color:#ffffff;
     --subtextual_color:#757575;
 
+
+    /* shadows */
+    --team_section_shadows:0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
     /* fonts */
-    --main_font:'Roboto';
+    --main_font:'Roboto', 'sans serif';
     --second_font:'Raleway'
 
 }
 body{
     font-family: var(--main_font);
+    color: var(--main_color);
+}
+li{
+    list-style-type:none;
 }
 .header{
-    background-color: #ffffff;
+    background-color: var(--back_color);
 }
 .studio_naming{
     font-family:var(--second_font);
@@ -23,22 +35,21 @@ body{
     line-height: 31px;
     letter-spacing: 0.03em;
     text-decoration:none;
-    color: var(--main_color);
+    
 }
 .naming_first_part{
-    color:#2196F3;
+    color:var(--accent_color);
+   
 }
 .link{
-   color: var(--main_color);
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+
 }
 
-li{
-    list-style-type:none;
-}
+
 .contact_links .link{
     color:var(--second_color);
     font-weight: 500;
@@ -51,6 +62,7 @@ li{
 }
 .link{
     text-decoration:none;
+  
 }
 .hero{
     background-color:var(--second_color);
@@ -67,13 +79,14 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--back_color);
 }
 .btn{
     background-color:var(--action_color);
-    color: #ffffff;
+    color: var(--back_color);
     width: 200px;
     height: 50px;
+    cursor: pointer
 }
 .activity_naming{
     font-style: normal;
@@ -122,10 +135,8 @@ color: #FFFFFF;
 .team_member{
     /* width: 270px;
     height: 368px; */
-    background-color: #fff;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: var(--back_color);
+    box-shadow: var(--team_section_shadows);
     border-radius: 0px 0px 4px 4px;
 }
 .team_member_name{
@@ -160,7 +171,7 @@ color: #FFFFFF;
     height: 21px; */
 }
 .studio_location{
-    color: #ffffff;
+    color: var(--back_color);
 }
 .studio_mail,.studio_phone_number{
     color: rgba(255, 255, 255, 0.6);
@@ -175,13 +186,14 @@ color: #FFFFFF;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer
 }
 .sort_button:hover, .sort_button:focus{
     background-color: var(--action_color);
-    color:#FFFFFF;
+    color:var(--back_color);
 }
 .studio_project{
-    background: #FFFFFF;
+    background: var(--back_color);
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
