@@ -131,9 +131,6 @@ color: var(--back_color);
     text-align: center;
     letter-spacing: 0.03em;
 }
-.team_members_inf{
-  
-}
 .team_member{
     /* width: 270px;
     height: 368px; */
@@ -212,4 +209,7 @@ color: var(--back_color);
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+}
+.naming_second_part{
+    color: var(--back_color);
 }
