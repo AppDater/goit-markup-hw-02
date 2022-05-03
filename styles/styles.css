@@ -22,9 +22,11 @@ body{
     font-family: var(--main_font);
     color: var(--main_color);
 }
+
 li{
     list-style-type:none;
 }
+
 .header{
     background-color: var(--back_color);
 }
@@ -35,7 +37,7 @@ li{
     line-height: 31px;
     letter-spacing: 0.03em;
     text-decoration:none;
-    
+    color: inherit;
 }
 .naming_first_part{
     color:var(--accent_color);
@@ -46,12 +48,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
+color: inherit;
 }
 
 
 .contact_links .link{
-    color:var(--second_color);
+    color:var(--subtextual_color);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
