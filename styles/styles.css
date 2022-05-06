@@ -21,6 +21,7 @@
 body{
     font-family: var(--main_font);
     color: var(--main_color);
+    font-style: normal;
 }
 
 li{
@@ -72,7 +73,6 @@ color: inherit;
     top: 80px;
 }
 .hero h1{
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -84,11 +84,13 @@ color: var(--back_color);
 .btn{
     background-color:var(--action_color);
     color: var(--back_color);
+    font-weight: 700;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
     cursor: pointer;
     font-family: inherit;
 }
 .activity_naming{
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 0.8;
@@ -97,15 +99,11 @@ color: var(--back_color);
 }
 .activity_description{
     color: var(--second_color);
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .illusration_naming{
-    /* width: 376px;
-    height: 42px; */
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -118,7 +116,6 @@ color: var(--back_color);
     background: #F5F4FA;
 }
 .team_presention{
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -138,7 +135,6 @@ color: var(--back_color);
     letter-spacing: 0.03em;
 }
 .team_member_speciality{
-    font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
@@ -151,7 +147,7 @@ color: var(--back_color);
     left: 0px;
     bottom: 0px;
 }
-.footer_contacts a{
+address a{
     text-decoration: none;
     font-size: 14px;
     line-height: 1.71;
@@ -165,14 +161,10 @@ color: var(--back_color);
     color: rgba(255, 255, 255, 0.6);
 }
 .sort_button{
-    width: 128px;
-    height: 38px;
     background-color:#F5F4FA;
     border-radius: 4px;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer
 }
